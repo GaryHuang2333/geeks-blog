@@ -29,12 +29,12 @@ https://www.exception.site/essay/how-to-free-use-intellij-idea-2019-3
 步骤简介: 
 1. 干净卸载老版本IDEA
 2. 从官网下载安装Ideav2021.3.2  
-IDEA 运行成功后，会弹出对话框，提示我们需要先登录 JetBrains 账户才能使用. 这里我们先不管，先点击 Exit 退出，准备开始运行激活脚本。
+IDEA 运行成功后，会弹出对话框，提示我们需要先登录 JetBrains 账户才能使用. 这里我们先不管，先点击 Exit 退出.
 3. 清空 IDEA 以前使用过的激活方式[非常重要]  
-运行激活脚本之前，如果你之前安装过 IDEA, 且手动为 IDEA 修改过 hosts(/private/etc/hosts) 文件，那么添加的配置，记得要删除；引用过的补丁也要移除掉等, 不然可能会与本文提供的补丁有冲突，出现各种奇奇怪怪的问题。
+如果你之前安装过 IDEA, 且手动为 IDEA 修改过 hosts(/private/etc/hosts) 文件，那么添加的配置，记得要删除；引用过的补丁也要移除掉等, 不然可能会与本文提供的补丁有冲突，出现各种奇奇怪怪的问题。
 如果没有动过 hosts 文件，则不用管，继续走下面的步骤。
 4. 将破解工具(./markdown_source/pojieIdea/ja-netfilter-all.zip)解压放到你的本地目录, 之后就不要移动它了. 
-5. for Mac, 运行 ja-netfilter-all/scripts/install.sh脚本. 这个脚本的作用如下: 
+5. for Mac, 运行本地目录/ja-netfilter-all/scripts/install.sh脚本. 这个脚本的作用如下: 
 - 自动在ja-netfilter-all/vmoptions/idea.vmoptions配置文件引入破解补丁位置  
 ```bash
 ➜  ~ tail -n 1  /<your_path>/ja-netfilter-all/vmoptions/idea.vmoptions

@@ -68,8 +68,8 @@ keg-only|a formula is keg-only if it is not symlinked into Homebrew’s prefix (
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/HomebrewUninstall.sh)"
 ```
 
-homebrew 本身会默认安装到 **/opt/homebrew** [Apple Silicon] or **/usr/local/** [macOS Intel]  
-homebrew 安装的软件包会默认安装到 **/opt/homebrew/Cellar** [Apple Silicon] or **/usr/local/Cellar/** [macOS Intel]
+homebrew 本身会默认安装到 **/opt/homebrew** [Apple Silicon]或者**/usr/local/** [macOS Intel]  
+homebrew 安装的软件包会默认安装到 **/opt/homebrew/Cellar** [Apple Silicon]或者**/usr/local/Cellar/** [macOS Intel]
 
 ---
 

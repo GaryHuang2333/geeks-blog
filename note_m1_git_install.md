@@ -64,7 +64,7 @@ garyhuang@nuojiyaMBP14 .ssh % cat id_rsa.pub
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDh3YQocLk8HUX8qqSQouhbvhSi/iizY4uqslQs2hVi+GOaTY6ER6FxMCVASS2i9N8ifxUP76GaWKqasBLZxqRy0PYSeNDdFx03xkvRx0wrI0ayEhFnXox0fIpwjHNCRul5zVQ+N62xnupEUcmfyNEuw8q+isSAhqKiOiqdfY07jVGVE6unpvZ1Rd/nbNccxYkAQZjkSOk111YhTZkxPp/EYEPhYS8MKGRskSFwLazkGhYHXof8cAxEe9CSYIqIij9g5/9xNmrDeVp71Tgu2KuFW1e+PE7cO4fXfsLX7uPLt+eau2lRqo4TUyH5mW0oDvTaRd3ispkXlMJAXgIm6vZXoWdiiOuU2Cr2Am+3tufKJsed3a1xZi8xnvpJ0MjrrWPVj8Rt5bt8+rSH7DYFlmtmOv4+puEm9y16sx+4YYo8VrxFjh+1p5CmLYTFUm6gXvadteTjh7e62rQpgPeE/p19pbo9LAiwqsI2y20KBcNI9Q9vsm7LveuwStyVstfpMBc= huangjunhong826@163.com
 ```
 
-then go to github page to setup above SSH key
+then go to github page to new a SSH key with above key
 ![setup SSH](./markdown_source/pic/note_m1_git_install_1.png)
 
 then test the connection 

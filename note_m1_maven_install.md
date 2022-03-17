@@ -1,9 +1,9 @@
 # m1 Maven install
 
 ## 1. download from Maven
-go to [maven download page](https://maven.apache.org/download.cgi), choose ***apache-maven-3.8.5-bin.zip*** to download
+go to [maven download page](https://maven.apache.org/download.cgi), choose ***apache-maven-3.8.5-bin.zip*** to download  
 ![download maven](./markdown_source/pic/note_maven_install_1.png)
-then unzip to your path
+then unzip to your path  
 ```bash
 ➜  devTools ls
 apache-maven-3.8.5         apache-maven-3.8.5-bin.zip
@@ -20,7 +20,7 @@ then reset config
 ```bash
 source ~/.zshrc
 ```
-and if you run mvn -v show like below, your maven env var setup are succeed
+and if you run mvn -v show like below, your maven env var has been setup successfully
 ![mvn -v](./markdown_source/pic/note_maven_install_3.png)
 
 ## 3. config maven repository path
