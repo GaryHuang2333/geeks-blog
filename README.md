@@ -7,6 +7,8 @@
 - [m1安装jdk](./note_m1_jdk_install.md)
 - [m1安装maven](./note_m1_maven_install.md)
 - [m1安装idea](./note_m1_idea_install.md)
+- [m1安装docker](./note_m1_docker_install.md)
+
 - [m1安装PD和Win11](./note_m1_PD&Win11.md) TBC
 
 

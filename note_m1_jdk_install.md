@@ -15,7 +15,7 @@ OpenJDK 64-Bit Server VM (Zulu 8.60.0.21-CA-macos-aarch64) (build 25.322-b06, mi
 ➜  zulu-8.jdk
 ```
 
-update /Users/\<username\>/.zshrc as below 
+update /Users/\<username>/.zshrc as below 
 ```bash
 JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
 
@@ -25,7 +25,7 @@ export JAVA_HOME
 
 
 ## 2. multiple version jdk install 
-if you have multiple jdks installed, just update /Users/\<username\>/.zshrc for JAVA_HOME pointing to which version you want
+if you have multiple jdks installed, just update /Users/\<username>/.zshrc for JAVA_HOME pointing to which version you want
 ```bash
 (switch from java8 to java11)
 #JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
