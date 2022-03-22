@@ -15,11 +15,27 @@ Go to https://docs.docker.com/desktop/mac/apple-silicon/ and click [Mac with App
 阿里云：https://<你的ID>.mirror.aliyuncs.com  
 七牛云加速器：https://reg-mirror.qiniu.com  
 
- 
+添加镜像源到docker
+![添加镜像源](./markdown_source/pic/note_m1_docker_install_2.png)
+```json
+"registry-mirrors": [
+    "https://docker.mirrors.ustc.edu.cn/"
+]
+```  
+然后点"Apply & Restart"
+
+
+## 3. docker 配置
+check docker info
+```bash
+docker info
+```
+![docker info](./markdown_source/pic/note_m1_docker_install_3.png)
+
 镜像放在那里?
+/Users/garyhuang/Library/Containers/com.docker.docker/Data/vms/0/data
 
-
-## 3. docker常用命令
+## 4. docker常用命令
 [官方参考](https://docs.docker.com/engine/reference/run/)
 |用法|作用|常用参数|参数作用|例子|
 |----|----|----|----|----|
@@ -57,7 +73,7 @@ Go to https://docs.docker.com/desktop/mac/apple-silicon/ and click [Mac with App
 |docker tag|||Tag an image for a private repository|docker tag 0e5574283393 myregistryhost:5000/fedora/httpd:version1.0|
 
 
-## 4. DockerFile Details
+## 5. DockerFile Details
 docker build [OPTIONS] PATH|URL|-
 
 The PATH is a directory on your local filesystem.  
