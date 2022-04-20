@@ -56,7 +56,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 不过国外源可能会有connection failure, 需要找国内源替换 
 
-或者将***https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh***保存本地[./markdown_source/install.sh]运行, 
+或者将***https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh***保存本地[../markdown_source/install.sh]运行, 
 > 如果遇到[[SSL_ERROR_SYSCALL](https://www.cnblogs.com/life-of-coding/p/12822614.html)], 要将ipv6禁用，“系统偏好设置”->"网络"->选择对应的网卡->"高级"->"配置ipv6",选择适合自己的选项，本人选择的是仅本地连接。记得点击"应用"  
 
 ### 2.2 卸载

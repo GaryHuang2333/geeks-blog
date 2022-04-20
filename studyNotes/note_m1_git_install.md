@@ -65,7 +65,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDh3YQocLk8HUX8qqSQouhbvhSi/iizY4uqslQs2hVi
 ```
 
 then go to github page to new a SSH key with above key
-![setup SSH](./markdown_source/pic/note_m1_git_install_1.png)
+![setup SSH](../markdown_source/pic/note_m1_git_install_1.png)
 
 then test the connection 
 ```bash

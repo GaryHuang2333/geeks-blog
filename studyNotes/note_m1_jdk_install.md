@@ -2,7 +2,7 @@
 
 ## 1. download and install from azul
 [azul download](https://www.azul.com/downloads/?version=java-8-lts&os=macos&architecture=arm-64-bit&package=jdk) with version=java-8-lts, os=macos, architecture=arm-64-bit, package=jdk
-![azul download page](./markdown_source/pic/note_m1_jdk_install_1.png)
+![azul download page](../markdown_source/pic/note_m1_jdk_install_1.png)
 Install the dmg package.  
 Zulu JDK default located under ***/Library/Java/JavaVirtualMachines/zulu-8.jdk***
 ```bash
@@ -21,7 +21,7 @@ JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
 
 export JAVA_HOME
 ```
-![update .zshrc](./markdown_source/pic/note_m1_jdk_install_2.png)
+![update .zshrc](../markdown_source/pic/note_m1_jdk_install_2.png)
 
 
 ## 2. multiple version jdk install 
@@ -35,5 +35,5 @@ JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
 export JAVA_HOME
 ```
 switch successfully
-![switch to jdk11](./markdown_source/pic/note_m1_jdk_install_3.png)
+![switch to jdk11](../markdown_source/pic/note_m1_jdk_install_3.png)
 

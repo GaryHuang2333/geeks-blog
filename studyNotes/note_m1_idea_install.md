@@ -2,29 +2,29 @@
 
 ## 1. download IDEA
 choose Apple Silicon
-![download IDEA](./markdown_source/pic/note_m1_idea_install_1.png)
+![download IDEA](../markdown_source/pic/note_m1_idea_install_1.png)
 download and install
 
 
 ## 2. 破解 IDEA v2021.3.2
 <!-- ### 方法一
-download [破解工具](https://www.backendcloud.cn/2021/03/11/jetbrains-mac-m1/)(工具放在./markdown_source/Jetbrains2020.3及以上版本激活补丁_520xiazai.zip)   -->
+download [破解工具](https://www.backendcloud.cn/2021/03/11/jetbrains-mac-m1/)(工具放在../markdown_source/Jetbrains2020.3及以上版本激活补丁_520xiazai.zip)   -->
 
 <!-- ### 方法一.二
 (https://www.backendcloud.cn/2021/03/11/jetbrains-mac-m1/)  
 插件市场安装：
 在 Settings/Preferences… -> Plugins 内手动添加第三方插件仓库地址：https://plugins.zhile.io 搜索：IDE Eval Reset 插件进行安装。
-![](./markdown_source/pic/note_m1_idea_install_2.png)
-![](./markdown_source/pic/note_m1_idea_install_3.png)
-![](./markdown_source/pic/note_m1_idea_install_4.png) -->
+![](../markdown_source/pic/note_m1_idea_install_2.png)
+![](../markdown_source/pic/note_m1_idea_install_3.png)
+![](../markdown_source/pic/note_m1_idea_install_4.png) -->
 
 <!-- ### 方法二
-download [破解工具](https://www.789zhao.com/blog/JCM0QKAP0XXS.html)(工具放在./markdown_source/ideamac2021_1_1.zip) -->
+download [破解工具](https://www.789zhao.com/blog/JCM0QKAP0XXS.html)(工具放在../markdown_source/ideamac2021_1_1.zip) -->
 
 
 ### 方法三 (亲测可用)
 https://www.exception.site/essay/how-to-free-use-intellij-idea-2019-3  
-(破解工具放在./markdown_source/pojieIdea/ja-netfilter-all.zip)
+(破解工具放在../markdown_source/pojieIdea/ja-netfilter-all.zip)
 
 步骤简介: 
 1. 干净卸载老版本IDEA
@@ -33,7 +33,7 @@ IDEA 运行成功后，会弹出对话框，提示我们需要先登录 JetBrain
 3. 清空 IDEA 以前使用过的激活方式[非常重要]  
 如果你之前安装过 IDEA, 且手动为 IDEA 修改过 hosts(/private/etc/hosts) 文件，那么添加的配置，记得要删除；引用过的补丁也要移除掉等, 不然可能会与本文提供的补丁有冲突，出现各种奇奇怪怪的问题。
 如果没有动过 hosts 文件，则不用管，继续走下面的步骤。
-4. 将破解工具(./markdown_source/pojieIdea/ja-netfilter-all.zip)解压放到你的本地目录, 之后就不要移动它了. 
+4. 将破解工具(../markdown_source/pojieIdea/ja-netfilter-all.zip)解压放到你的本地目录, 之后就不要移动它了. 
 5. for Mac, 运行本地目录/ja-netfilter-all/scripts/install.sh脚本. 这个脚本的作用如下: 
 - 自动在ja-netfilter-all/vmoptions/idea.vmoptions配置文件引入破解补丁位置  
 ```bash

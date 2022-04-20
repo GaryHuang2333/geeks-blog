@@ -75,22 +75,22 @@ homebrew 安装的软件包会默认安装到 **/opt/homebrew/Cellar** [Apple Si
 
 ## 5. 安装时会遇到的问题:  
 ### Q1. raw.githubusercontent.com connection refused
-![raw.githubusercontent.com connection failed](./markdown_source/pic/note_m1_homebrew_install_1.png)
+![raw.githubusercontent.com connection failed](../markdown_source/pic/note_m1_homebrew_install_1.png)
 > Solution:  
 > 1. when try to ping raw.githubusercontent.com, failed
-> ![raw.githubusercontent.com ping failed](./markdown_source/pic/note_m1_homebrew_install_2.png)
+> ![raw.githubusercontent.com ping failed](../markdown_source/pic/note_m1_homebrew_install_2.png)
 > 2. then get to know the ip address of raw.githubusercontent.com from [ipaddress.com](http://ipaddress.com)
-> ![raw.githubusercontent.com ping failed](./markdown_source/pic/note_m1_homebrew_install_3.png)
+> ![raw.githubusercontent.com ping failed](../markdown_source/pic/note_m1_homebrew_install_3.png)
 > 3. if direct ping the ip, it`s ok to connect
-> ![raw.githubusercontent.com ping failed](./markdown_source/pic/note_m1_homebrew_install_4.png)
+> ![raw.githubusercontent.com ping failed](../markdown_source/pic/note_m1_homebrew_install_4.png)
 > 4. revise /private/etc/hosts (backup first)
-> ![raw.githubusercontent.com ping failed](./markdown_source/pic/note_m1_homebrew_install_5.png)
+> ![raw.githubusercontent.com ping failed](../markdown_source/pic/note_m1_homebrew_install_5.png)
 > 5. ping raw.githubusercontent.com again, success
-> ![raw.githubusercontent.com ping failed](./markdown_source/pic/note_m1_homebrew_install_6.png)
+> ![raw.githubusercontent.com ping failed](../markdown_source/pic/note_m1_homebrew_install_6.png)
 > 6. then retry install homebrew  
 
 ### Q2. github.com connection timeout, follow as Q1
-![connect github.com timeout](./markdown_source/pic/note_m1_homebrew_install_7.png)
+![connect github.com timeout](../markdown_source/pic/note_m1_homebrew_install_7.png)
 
 ### Q3. installation is very slow, and then fail
 > Solution:
