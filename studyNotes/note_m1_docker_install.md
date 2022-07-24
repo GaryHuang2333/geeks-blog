@@ -54,7 +54,7 @@ docker info
 |docker run||--publish-all, -P|Publish all exposed ports to random ports||
 |docker run||--tty, -t|Allocate a pseudo-TTY; 分配一个模拟输入终端|docker run -it ubuntu:15.10 /bin/bash  (The -it instructs Docker to allocate a pseudo-TTY connected to the container’s stdin; creating an interactive bash shell in the container)  (/bin/bash：放在镜像名后的是命令, 这里我们希望有个交互式 Shell, 因此用的是 /bin/bash)|
 |docker run||--interactive, -i|Keep STDIN open even if not attached 保持输入终端连接着|docker run --name test -it debian|
-|docker ps [OPTIONS]|默认查看正在运行的容器, 参数-a则查看所有容器|||docker ps; docker ps -a|
+|docker ps [OPTIONS]|默认查看正在运行的容器, 参数-a则查看所有容器, 参数-q only show container ID, 参数-f/--filter "key=value"|||docker ps 查看运行的容器; docker ps -a 查看所有容器; docker ps -aq -f "name=xxx" show container ID for those container name = xxxx |
 |docker top CONTAINER [ps OPTIONS]|查看容器中运行的进程|||docker top testContainerName|
 |docker inspect [OPTIONS] NAME\|ID [NAME\|ID...]|查看容器的docker底层信息,默认以json格式显示|||docker inspect testContainerName|
 |docker start [OPTIONS] CONTAINER [CONTAINER...]|启动一个或多个停止的容器|||docker start my_container|
@@ -105,5 +105,4 @@ eg.
 |ONBUILD|ONBUILD \<其它指令>||用于延迟构建命令的执行。简单的说, 就是 Dockerfile 里用 ONBUILD 指定的命令, 在本次构建镜像的过程中不会执行(假设镜像) test-build）。当有新的 Dockerfile 使用了之前构建的镜像 FROM test-build , 这时执行新镜像的 Dockerfile 构建时候, 会执行 test-build 的 Dockerfile 里的 ONBUILD 指定的命令|
 
 
-C
 
